@@ -5,6 +5,7 @@ import { config } from 'dotenv';
 
 import shopsRoutes from './routes/shops.js';
 import goodsRoutes from './routes/goods.js';
+import ordersRoutes from './routes/orders.js';
 
 config();
 const PORT = process.env.PORT || 3001;
@@ -17,6 +18,7 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use(shopsRoutes);
 app.use(goodsRoutes);
+app.use(ordersRoutes);
 
 mongoose.connect(MONGO_URL).then(() => {
   console.log('Connected');

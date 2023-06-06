@@ -21,7 +21,7 @@ export const goodsList = [
   {
     shopId: '1',
     id: '03',
-    name: 'Ice-cream',
+    name: 'IceCream',
     amount: 23,
 
     price: 45,
@@ -80,7 +80,7 @@ export const goodsList = [
   {
     shopId: '2',
     id: '002',
-    name: 'France fries',
+    name: 'FranceFries',
     amount: 18,
 
     price: 85,
@@ -90,7 +90,7 @@ export const goodsList = [
   {
     shopId: '2',
     id: '003',
-    name: 'Ice-cream',
+    name: 'IceCream',
     amount: 20,
 
     price: 55,
@@ -100,7 +100,7 @@ export const goodsList = [
   {
     shopId: '2',
     id: '004',
-    name: 'Chicken pie',
+    name: 'ChickenPie',
     amount: 16,
 
     price: 190,
@@ -138,7 +138,7 @@ export const goodsList = [
   {
     shopId: '3',
     id: '0001',
-    name: 'BIG-BURGER',
+    name: 'BIGBURGER',
     amount: 13,
     price: 115,
     image: 'https://mongomo.ma/wp-content/uploads/2022/09/BIG-BURGER.jpg',
@@ -146,7 +146,7 @@ export const goodsList = [
   {
     shopId: '3',
     id: '0002',
-    name: 'suhi',
+    name: 'Sushi',
     amount: 15,
     price: 75,
     image:
@@ -155,7 +155,7 @@ export const goodsList = [
   {
     shopId: '3',
     id: '0003',
-    name: 'Ice-cream',
+    name: 'IceCream',
     amount: 23,
     price: 45,
     image:
@@ -164,7 +164,7 @@ export const goodsList = [
   {
     shopId: '3',
     id: '0004',
-    name: 'chicken-pot-pie-mfs',
+    name: 'ChickenPotPie',
     amount: 10,
     price: 90,
     image:
@@ -173,7 +173,7 @@ export const goodsList = [
   {
     shopId: '3',
     id: '0005',
-    name: 'miso-soup',
+    name: 'MisoSoup',
     amount: 18,
 
     price: 85,
@@ -201,7 +201,7 @@ export const goodsList = [
   {
     shopId: '4',
     id: '00001',
-    name: 'Double-Cheeseburger',
+    name: 'DoubleCheeseburger',
     amount: 13,
     price: 115,
     image:
@@ -210,7 +210,7 @@ export const goodsList = [
   {
     shopId: '4',
     id: '00002',
-    name: 'Melt-Mouth-Potatoes',
+    name: 'MeltMouthPotatoes',
     amount: 15,
     price: 75,
     image:
@@ -219,7 +219,7 @@ export const goodsList = [
   {
     shopId: '4',
     id: '00003',
-    name: 'Ice-cream Pam-Ziegler',
+    name: 'PamZiegler',
     amount: 23,
     price: 45,
     image:
@@ -228,7 +228,7 @@ export const goodsList = [
   {
     shopId: '4',
     id: '00004',
-    name: 'Chicken-Pot-Pie',
+    name: 'ChickenPotPie',
     amount: 10,
     price: 90,
     image:
@@ -281,7 +281,7 @@ export const goodsList = [
   {
     shopId: '5',
     id: '000003',
-    name: 'Ice-cream',
+    name: 'IceCream',
     amount: 23,
     price: 45,
     image:

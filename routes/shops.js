@@ -8,7 +8,6 @@ const router = Router();
 
 router.get('/api/shops', async (req, res) => {
   let shops = await ShopModel.find();
-  console.log('shops: ', shops);
   if (!shops.length) {
     const shopsGoods = shopsList.map(async shop => {
       const newShop = await ShopModel.create({ name: shop.name });
