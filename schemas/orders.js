@@ -1,9 +1,4 @@
 import mongoose, { Schema, ObjectId } from 'mongoose';
-// const selectedProducts = new Schema({
-//   productId: { type: ObjectId, required: true },
-//   count: { type: Number, required: true },
-//   price: { type: Number, required: true },
-// });
 
 const orderSchema = new Schema({
   orderNumber: { type: Number, required: true },
